@@ -20,7 +20,7 @@ btns.forEach((btn) => {
             count -= 5
         }
         else if(styles.contains('randomize')){
-            count = Math.floor((Math.random() * 2 - 1) * 100)
+            count = Math.floor((Math.random() * 2 - 1) * 1000)
         }
         else {
             count = 0
