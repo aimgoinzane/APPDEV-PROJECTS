@@ -24,6 +24,11 @@
   font-size: 20px;
 }
 
+.character img{
+  margin: auto;
+  display: block;
+}
+
 .person p{
   margin: 0;
 }
@@ -34,11 +39,50 @@
   margin-bottom: 10px;
 }
 
+hr {
+  color: whitesmoke;
+  width: 85%;
+}
+
 body {
   background-color:black;
 }
 
+.card {
+  width: 300px;
+  max-width: 90%;
+  border: 1px solid hsla(0, 0%, 81%, 0.8);
+  border-radius: 100px;
+  box-shadow: 5px 5px 10px hsla(234, 100%, 24%, 0.5);
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+  margin: auto;
+  background: radial-gradient(#3c1647, #000000);
+  transition: height 0.3s ease;
+  overflow: hidden;
+  color: whitesmoke;
+  height: 50px;
+  font-size: 20px;
+  filter: grayscale(80%);
+}
+
+.card img {
+  border-radius: 100px;
+}
+.card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  height: 10cm;
+  filter: grayscale(0%);
+}
+
 header {
+  font-size: 2em;
+  color: whitesmoke;
+  text-align: center;
+}
+
+header h4{
   font-size: 2em;
   color: whitesmoke;
   text-align: center;
