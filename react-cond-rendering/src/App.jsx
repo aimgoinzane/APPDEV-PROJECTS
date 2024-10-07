@@ -20,6 +20,14 @@ function App() {
     {id: 2, name: "ice cream", color: "blue"},
     {id: 3, name: "pie", color: "green"},
       
+
+  // sort fruits in desc order
+  // fruits.sort((a, b) => b.name.localeCompare(a.name))
+  // sort fruits in asc order
+  // fruits.sort((a, b) => a.name.localeCompare(b.name))
+  // filter by color
+  // const redFruits = fruits.filter(fruits => fruit.color === "red")  
+
   ]
   return (
     <>
