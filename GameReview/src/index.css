@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container for the entire reviews page */
+.reviews-container {
+    width: 80%;
+    max-width: 1000px;
+    padding: 40px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles for Reviews Page */
+h3 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #3498db;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Game Cards Styles */
+.game-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-card h2 {
+    color: #2980b9;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.game-card h4 {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Input Fields (Title, Content) */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit Button Styles */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Review Cards Styles */
+.review-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h3 {
+    color: #2980b9;
+    font-size: 22px;
+}
+
+.review-card h4 {
+    font-size: 18px;
+    color: #34495e;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin: 10px 0;
+}
+
+.review-card small {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+/* Responsive Styles for smaller screens */
+@media (max-width: 600px) {
+    .reviews-container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .game-card, .review-card {
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    input[type="text"], textarea {
+        font-size: 14px;
+    }
+
+    h3, h4 {
+        font-size: 22px;
+    }
+}
