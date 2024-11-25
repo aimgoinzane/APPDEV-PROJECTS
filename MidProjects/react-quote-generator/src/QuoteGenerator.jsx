@@ -30,7 +30,7 @@ export default function QuoteGenerator() {
         <>
         <div className = "divContainer">
             <p className = "container">{quote}</p>
-            <br / >
+            <br />
             <button className = "randomize" onClick = {quoteChange} >Inspire Me!</button>
         </div> 
         </>
