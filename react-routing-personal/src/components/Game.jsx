@@ -10,11 +10,16 @@ export default function Game() {
         <>
             <div>
                 <h1>{game.name}</h1>
-                <img src = {game.image} />
+                <img src = {game.image} className="round-img"/>
                 <p>{game.description}</p>
                 <h2>Reviews</h2>
-                
-                
+                <div className="holder-review">
+                    <p className="review-card">{game.r1}</p>
+                    <p className="review-card">{game.r2}</p>
+                    <p className="review-card">{game.r3}</p>
+                    <p className="review-card">{game.r4}</p>
+                    <p className="review-card">{game.r5}</p>
+                </div>
                 
             </div>
         </>

@@ -6,3 +6,210 @@
 li {
     list-style-type: none;
 }
+
+.round-img {
+    border-radius: 15px;
+
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Header Styles */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Home Page Styles */
+.home h1 {
+    font-size: 2.5rem;
+    color: #007acc;
+}
+
+/* About Page Styles */
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Games Page Styles */
+.games ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.games ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.games ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+.games ul li a:hover {
+    color: #005fa3;
+}
+
+/* Game Details Page Styles */
+.game img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+.game h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007acc;
+}
+
+.holder-review {
+    display: flex;          /* Enable Flexbox */
+    flex-direction: column; /* Stack the reviews vertically */
+    align-items: center;    /* Center the reviews horizontally */
+    justify-content: center; /* Center vertically (if the container is tall enough) */
+    margin-top: 15px;
+}
+
+.review-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    
+}
+
+.review-card:hover {
+    background-color: #f0f0f0;
+}
+
+/* 404 Page Styles */
+.notfound h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #ff0000;
+    margin-top: 50px;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Games List - Cards Container */
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+/* Game Card Styles */
+.game-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.game-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.game-card h2 {
+    color: #007acc;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.game-card p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Link Styles */
+.game-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.game-link:hover {
+    color: #007acc;
+}
