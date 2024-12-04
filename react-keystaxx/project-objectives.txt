@@ -1,0 +1,36 @@
+
+Objectives
+
+● Mission and Vision of the company.
+● A brief description/tagline of what the company is and what the company offers.
+● Showcase Page for the positive feedback of clients and employees (Include
+dummy/static reviews of the company in this page).
+● A Product Listing Page.
+● A Product Manual for each individual product.
+● A brief description of your artisan keyboards showcasing a different branch of
+your company.
+● A review page for writing reviews for the products and reviews for your company
+as a whole.
+● Company Profile Page detailing the positions of the different entities hired by your
+company.
+● A Developer page showcasing your resume and information as website
+developers and designers of the web application. Additional: you can include a
+vouch function for the developer page as a button to increment the vouch points of the
+developers of the web application.
+
+
+Team Members:
+MEEEEEEE (ALso Add Resume and personal info)
+
+Company Name: KeyStaxx
+Sister Company Name: Still KeyStaxx but make it different
+
+Mission & Vision
+bla bla bla
+
+Add a Comment Section in every keyboard
+
+For the Keyboard thing, use the appearing thingy in personal profile to showcase brief details about the keyboard
+
+
+
