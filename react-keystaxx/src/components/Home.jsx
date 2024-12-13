@@ -2,9 +2,10 @@ export default function Home(){
 
     return(
         <>
-            
-            <h3>Company Logo Here</h3>
-            <img src="https://placehold.co/400" ></img>
+            <div className="home-page">
+                <h3>Welcome to KeyStaxx</h3>
+                <img src="https://placehold.co/400" />
+            </div>
         </>
     )
 }
