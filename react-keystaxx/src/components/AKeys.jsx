@@ -1,15 +1,15 @@
 import {Link} from "react-router-dom"
 const keys = [
-    {id: 1, name: 'X-Tra', description: "LOL"},
-    {id: 2, name: 'X-Tra2', description: "LOL1"},
-    {id: 3, name: 'X-Tra3', description: "LOL2"},
-    {id: 4, name: 'X-Tra4', description: "LOL3"},
-    {id: 5, name: 'X-Tra5', description: "LOL3"},
-    {id: 6, name: 'X-Tra6', description: "LOL3"},
-    {id: 7, name: 'X-Tra7', description: "LOL3"},
-    {id: 8, name: 'X-Tra8', description: "LOL3"},
-    {id: 9, name: 'X-Tra9', description: "LOL3"},
-    {id: 10, name: 'X-Tra10', description: "LOL3"},
+    {id: 1, name: 'A-Form', description: "A-Boards"},
+    {id: 2, name: 'A-Form2', description: "A-Boards1"},
+    {id: 3, name: 'A-Form3', description: "A-Boards2"},
+    {id: 4, name: 'A-Form4', description: "A-Boards3"},
+    {id: 5, name: 'A-Form5', description: "A-Boards4"},
+    {id: 6, name: 'A-Form6', description: "A-Boards5"},
+    {id: 7, name: 'A-Form7', description: "A-Boards6"},
+    {id: 8, name: 'A-Form8', description: "A-Boards7"},
+    {id: 9, name: 'A-Form9', description: "A-Boards8"},
+    {id: 10, name: 'A-Form10', description: "A-Boards9"},
 ]
 
 export default function AKeys() {
